@@ -4,6 +4,46 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<style type="text/css">
+			*  /*重置浏览器默认样式*/
+			{
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+			.menu{
+				position: relative;
+			}
+			.menu li{  /*每项菜单的样式*/
+				width: 100px;
+				height: 36px;
+				line-height: 36px;
+				text-align: center;
+				background: darkblue;
+			}
+			
+			.menu li a{
+				text-decoration: none;
+				color: white;
+			}
+			
+			.menu > li  /*让子级li都浮动，横排*/
+			{
+				float: left;
+			}
+			
+			.menu ul{
+				display: none;  /*让子菜单隐藏*/
+				position: absolute;
+			}
+			.menu li:hover ul{  /*当悬停在li上时选择子级的ul显示*/
+				display: block;  
+			}
+			.menu ul li{
+				filter: Alpha(opacity=60); /* IE 滤镜 */   
+				opacity:0.6;
+			}
+		</style>
 	</head>
 
 	<body>
@@ -41,7 +81,66 @@
 			<li>
 				<a href="#">技术支持</a>
 			</li>
+			<li>
+				<a href="#">在线留言</a>
+				<ul>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">技术支持</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">技术支持</a>
+			</li>
 		</ul>
+		<img src="img/banner (12).jpg"/>
+				<ul class="menu">
+			<li>
+				<a href="#">联系我们</a>
+			</li>
+			<li>
+				<a href="#">公司掠影</a>
+				<ul>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">技术支持</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">新闻中心</a>
+				<ul>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">技术支持</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">版权声明</a>
+			</li>
+			<li>
+				<a href="#">在线留言</a>
+				<ul>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">技术支持</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">技术支持</a>
+			</li>
+			<li>
+				<a href="#">在线留言</a>
+				<ul>
+					<li><a href="#">版权声明</a></li>
+					<li><a href="#">在线留言</a></li>
+					<li><a href="#">技术支持</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">技术支持</a>
+			</li>
+		</ul>
+		<img src="img/banner (12).jpg"/>
 	</body>
 
 </html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			a {
+				color: blue;
+				text-decoration: none;
+			}
+			.content {
+				height: 50px;
+				width: 300px;
+				color: blue;
+				border: 2px solid blue;
+				margin: 10px;
+			}
+			
+			div:target {
+				background: lightgreen;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="div1">
+			<a href="#p1">第一段</a>
+			<a href="#p2">第二段</a>
+			<a href="#p3">第三段</a>
+		</div>
+		<div id="div2">
+			<div id="p1" class="content">第一段内容</div>
+			<div id="p2" class="content">第二段内容</div>
+			<div id="p3" class="content">第三段内容</div>
+		</div>
+	</body>
+
+</html>
