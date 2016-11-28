@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>BFC与IFC</title>
+		<style type="text/css">
+			#div0 {
+				border: 2px solid lightsalmon;
+				padding: 20px;
+				width: 400px;
+				overflow: hidden;  /*让div0触发BFC*/
+			}
+			
+			#div1 {
+				width: 200px;
+				height: 200px;
+				background: lightgreen;
+				float: left;
+			}
+			
+			#div2 {
+				width: 200px;
+				height: 200px;
+				background: lightblue;
+				float: left;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h2>BFC与IFC</h2>
+		<div id="div0">
+			<div id="div1">div1
+			</div>
+			<div id="div2">div2
+			</div>
+		</div>
+	</body>
+
+</html>
