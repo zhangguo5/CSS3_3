@@ -1,0 +1,45 @@
+.header_on{
+	height: 49px;
+	background-color: #000000;
+	min-width: 980px;
+}
+.header{
+	height: 49px;
+	width: 1240px;
+	margin: 0 auto;
+	position: relative;
+}
+@media screen and (max-width: 1240px) {
+	.header {
+		width: 980px;
+	}
+}
+.miui_logo{
+	position: absolute;
+	width: 46px;
+	height: 17px;
+	text-indent: -9999px;
+	background-image: url(../../images/index_0.png);
+	top: 16px;
+	left: 0;
+}
+.miui_menu{
+	position: absolute;
+	top: 9px;
+	right: 0;
+	width: 600px;
+	height: 30px;
+	text-align: right;
+	line-height: 30px;
+}
+.miui_menu a{
+	color: #dddddd;
+	margin-left: 30px;
+	font-size: 14px;
+}
+.miui_menu a.current{
+	color: #868686;
+}
+.miui_menu a:hover{
+	color: #868686;
+}

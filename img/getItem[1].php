@@ -1,0 +1,1 @@
+jQuery111309729092517762394_1480386326203({"code":1,"msg":"ok","data":{"id":"2163900008","commodity_id":"1163900021","name":"10000mAh\u5c0f\u7c73\u79fb\u52a8\u7535\u6e902 \u9516\u8272","short_name":"10000mAh\u5c0f\u7c73\u79fb\u52a8\u7535\u6e902 \u9516\u8272","market_price":"79","price":"79","image":"\/\/i1.mifile.cn\/a1\/pms_1476688190.21955893!110x110.jpg"}})
