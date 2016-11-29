@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>居中</title>
+		<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			
+			html,
+			body {
+				height: 100%;
+			}
+			
+			#div0 {
+				width: 80%;
+				height: 90%;
+				border: 3px solid lightblue;
+				margin: 0 auto;
+				position: relative;
+			}
+			
+			#div1 {
+				width: 200px;
+				height: 150px;
+				background: lightgreen;
+				position: absolute;
+				/*居中开始*/
+				top: 0;
+				right: 0;
+				bottom: 0;
+				left: 0;
+				margin: auto;
+				/*居中结束*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="div0">
+			<div id="div1">
+
+			</div>
+		</div>
+	</body>
+
+</html>

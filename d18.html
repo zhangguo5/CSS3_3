@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>float</title>
+		<style type="text/css">
+			.cls1 {
+				width: 100px;
+				height: 100px;
+				background: lightgreen;
+				float: left;
+				margin: 5px;
+			}
+			
+			#div0 {
+				width: 330px;
+				padding: 5px;
+				border: 5px solid lightblue;
+			}
+			
+			.clear {
+				clear: both;
+			}
+			
+			.clearfix {
+				*zoom: 1;/*在旧版本的IE浏览器缩放大小，触发haslayout（类似BFC）*/
+			}
+			.clearfix:after {  /*伪元素，在应用该元素后添加一个伪元素*/
+				content: "";  /*内容为空*/
+				display: table;   /*BFC，清除内部浮动*/
+				clear: both; /*清除外部浮动*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="div0">
+			<div id="div1" class="cls1">div1
+			</div>
+			<div id="div2" class="cls1">div2
+			</div>
+			<div id="div3" class="cls1">div3
+			</div>
+			<div class="clear"></div>
+		</div>
+	</body>
+
+</html>

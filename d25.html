@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>居中</title>
+		<style type="text/css">
+			body,
+			html {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			
+			#div0 {
+				width: 80%;
+				height: 50%;
+				background: lightblue;
+				margin: 0 auto;
+				display: table;  /*类似让div1为一个table*/
+			}
+			
+			#div1{
+				display: table-cell;  /*类似table中的td*/
+				vertical-align: middle;   /*垂直居中*/
+				text-align: center;  /*水平居中*/
+			}
+		</style>
+	</head>
+
+	<body>
+		<div id="div0">
+			<div id="div1">
+				<img src="img/cp.png" id="img1" height="200" />
+			</div>
+		</div>
+	</body>
+
+</html>
