@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>清除浮动</title>
+		<style type="text/css">
+			#div1 {
+				width: 100px;
+				height: 100px;
+				background: lightblue;
+				float: left;
+			}
+			#div2 {
+				width: 200px;
+				height: 200px;
+				background: lightgreen;
+				float: left;
+				clear: both;  /*div2的右边与左边都不能出现浮动元素*/
+			}
+			#div3 {
+				width: 100px;
+				height: 100px;
+				background: lightcoral;
+				float: left;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="div1">div1</div>
+		<div id="div2">div2</div>
+		<div id="div3">div3</div>
+	</body>
+</html>
